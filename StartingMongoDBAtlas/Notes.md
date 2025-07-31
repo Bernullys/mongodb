@@ -106,3 +106,114 @@ Lesson 2: MongoDB Architecture overview.
         Sharding requires careful planning.
         Added complexity.
         Poorly balance clusters can degrade performance.
+
+
+Lesson 3. Atlas Overview
+
+    MongoDB Atlas DBaaS vs. self-hosted options.
+
+        MondoDB ofers two self-hosted manage options:
+            Community Edition.
+            Enterprise Advance.
+
+            For this options we need to: 
+                Download and install.
+                Configure the database and infrastructure.
+                Allows great control over the database.
+        
+        MongoDB Atlas:
+            Cloud-based.
+            Remove operational overhead. Is fully managed in the cloud.
+
+    Cloud infrastructure.
+
+        Atlas run in AWS, Google Cloud and Microsoft Asure.
+        Atlas allows you to deploy clusters across multiple regions and availability zones. This activates:
+            Automatic failover.
+            Ensures if one availability zone goes down, the others can take over.
+
+    Security features.
+
+        Atlas uses Authentication and Authorization.
+        For Authentication:
+            Multiple factor authentication with various options.
+        For Authorization:
+            Role-Based Access Control (RBAC).
+            Specific roles for users so they only have access to what they need.
+        Atlas also provides several layers of security controls to ensure privacy like:
+            HIPAA.
+            GDPR.
+            SOC2 Type II.
+            And more.
+        Atlas employs also Network isolation.
+            Deployments are created within a Virtual Private Cloud (VPC).
+            Can configure IP Access List.
+        Atlas provides encryption by default with several customizable options.
+            Encryption in motion.
+            Encryption at rest.
+            Encryption in use.
+        Atlas also supports:
+            Support for auditing to track and record operations.
+            Private endpoints to connect off-network.
+            Integration with third-party monitoring solutions.
+
+
+Lesson 4. Deploying an Atlas Cluster.
+
+    Create an Atlas account on the Try Free button.
+
+    This creates aproject: Project 0
+
+    We can have one Free cluster per project. If we need more we can update the plan.
+
+    Username: bernardoantoniod
+    Password: nXjy7AU0Cwt5Zgx1
+
+    I set my organization name to: Bernardo's Organization.
+    organizations allows to:
+        Group and define users and teams.
+        Grant them access to projects.
+    Projects allows to:
+        Define and organize databases and clusters.
+        Create separate projects for development, testing, and production.
+    
+    What we learn:
+        Deploy a cluster.
+        Cluster types: Free/shared, Serverless, and Dedicated.
+        Create database users.
+        Deploy cluster.
+
+
+Lesson 5. Exploring the Atlas UI.
+
+    Load a sample dataset.
+
+    Explore Advance features.
+
+
+Conclusion:
+
+    In this unit, you learned how to:
+
+        Define a document database and distributed system
+        Explain the purpose of a flexible schema
+        Define documents, collections, and databases in MongoDB
+        Describe how MongoDB, as a distributed system, maintains consistency
+        Explain how MongoDB Atlas works as a database-as-a-service
+        Describe how MongoDB operates on the cloud and uses automatic failover
+        Deploy an Atlas cluster
+        Navigate the Atlas UI and load a sample dataset
+        Query for documents in a database, using the Atlas UI
+
+    Resources:
+        Use the following resources to learn more about getting started with MongoDB:
+            Docs: Get Started with Atlas
+            Docs: Introduction to MongoDB
+            MongoDB Use Cases
+            Docs: FAQ: MongoDB Fundamentals
+
+        Explore other MongoDB topics and features:
+            Docs: Atlas Vector Search Quickstart
+            Docs: Replication
+            Docs: Sharding
+            Docs: Security
