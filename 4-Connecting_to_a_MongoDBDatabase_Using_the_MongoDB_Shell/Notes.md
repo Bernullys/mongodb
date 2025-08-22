@@ -46,7 +46,7 @@ Lesson 2: Installing and connecting to the MongoDB Shell.
     How to connect to a MongoDB deployment running locally:
         By default MongoDB instances run on the 27017 port.
         If that port is in current use we have to use another.
-        Run: mongosh --port 28888   Donn't work for me :/
+        Run: mongosh --port 28888   Don't work for me :/
         But I got connected using the connection string of my cluster :)
     
     Commands while connected with mongosh to my cluster:
